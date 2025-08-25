@@ -1,4 +1,3 @@
-### page 17
 # 1. Getting started 
 
 * WYSIWYG(what you see is what you get) - software that allows content to be edited in a form that
@@ -20,14 +19,17 @@
 
 ---
 ## Heading
-1-6 levels of heading
+1-6 levels of heading using `#`
 
 ### **Alternate Syntax**
-
 Heading 1
 =
+shortcut `=` for heading 1
+
 Heading 2
 -
+shortcut `-` for heading 2
+
 ---
 ## Paragraphs
 I really like using Markdown.
@@ -44,21 +46,27 @@ Just add 2 spaces at the end of the line you want to end and start a new one
 # Emphasis
 
 ## Bold
+bolding is done with 2 of `*` or `_`  
 I love **bold** moves  
 I love __bold__ moves  
 Love**is**bold
 
 ## Italic
+Italic uses only 1  
 The *cat's meow*  
 The _cat's meow_  
 A*cat*meow.
 
-## Bold and Italic 
+## Bold and Italic
+You can use both at the same time if you place 3  
+Example: `_**something**_`. They don't have to be matching  
 ***Important*** Text  
-_**Important**_ text
+__*Important*__ text
 
 ---
 ## Blockquotes
+They use `>`
+
 This is the first paragraph
 > and this is the second 
 > 
@@ -67,15 +75,23 @@ This is the first paragraph
 > 
 > wasd
 
-You can have multiple paragraphs and you can **nest** them
+You can have multiple paragraphs and can **nest** them
 
 ---
 ## Lists
+        ### 1. Ordered List
+        3. wasdwa
+        4. wasdw
+        3. wasd
+        ### 2. Unordered List
+        - First item
+        + Second item
+        * Third item
 
 ### 1. Ordered List
-3. wasdwa
-   4. wasdw
-3. wasd
+3. first item
+   4. first item in first item
+3. second item
 ### 2. Unordered List
 - First item
 + Second item
@@ -91,20 +107,20 @@ You can have multiple paragraphs and you can **nest** them
 3. Look at the following `code`
 
              Print("Hello world")
-4. wdasd
+4. something else
         
 ---
 ## Images and Links
 
 Here `[Pikachu]` is used as alternative if the image isn't available
-The only syntax is `![alt](image.png)`  
+The only syntax for images is `![alt](image.png)` and for link just don't place the `!`.  
 A **[Pikachu](https://www.pokemon.com/us/pokedex/pikachu)**  
-<https://www.pokemon.com/us/pokedex/pikachu> enclose a link in angle brackets for a link
+<https://www.pokemon.com/us/pokedex/pikachu> enclose a link in angle brackets to make it into a link
 ![Pikachu](pika.png)    
 emphasazing works the same with links
 
 ---
-## Horizontal Rules
+## Horizontal Rules `---`
 
 Better separation of different parts of the document.
 Will use a lot
@@ -124,7 +140,6 @@ using `:` to align content
 for easier table creation [Table Generator](https://www.tablesgenerator.com/markdown_tables)
 
 ## Fenced code blocks
-
 
 You can use a language key word to highlight the syntax `python, json` etc.
 ```python
